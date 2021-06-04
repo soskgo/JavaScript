@@ -1,6 +1,10 @@
 // 사업자 등록번호 유효성 검사
 
 const companyRegistrationNumer = '123-45-67891'
+const test1 = ''
+const test2 = '12-48-445'
+const test3 = 123
+const test4 = '@$asd'
 
 if (checkCompanyRegistrationNumer(companyRegistrationNumer)) {
     console.log('사업자등록 번호가 맞습니다.')

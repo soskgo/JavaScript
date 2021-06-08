@@ -54,4 +54,4 @@ function resultSum(multiplyArray) {
 function verificationCode(sum) {
   const sunEndNumber = sum.toString().split('')[1]
   return sunEndNumber
-}
+} 

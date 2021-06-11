@@ -1,6 +1,8 @@
 const socialSecurityNumber = '750615-1862133' // true
 // const socialSecurityNumber = '123456-1234567' //false
 
+
+// 리턴된 결과에따라 다르게 출력
 if (ssnCheck(socialSecurityNumber)) return console.log('주민번호가 맞습니다.')
 else return console.log('주민번호가 잘못됐습니다. 다시 입력하세요.')
 
@@ -32,5 +34,6 @@ function verificationCode(ssnArray) {
     }
     // 3.더한 결과를 11로 나눈다.(나머지 연산)
     // 4.11에서 나머지 결과를 뺀다.
+    // 5.결과값을 리턴한다.
     return 11 - (sum % 11)
 }

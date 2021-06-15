@@ -74,7 +74,7 @@ const printNo = function print() {
 randomQuiz('love you',printYes,printNo)
 randomQuiz('you',printYes,printNo)
 
-//arrow function
+//8.arrow function
 // 화살표 함수
 const arrowPrint = () => console.log('arrow function')
 arrowPrint

@@ -12,3 +12,8 @@ console.log(fruitsSplit)
 const array = ['🍎', '🥝', '🍌',' 🍒']
 const reverseArray = array.reverse()
 console.log(reverseArray)
+
+// 4. 배열에서 필요한 부분만 새로운 배열로 만들기
+const numberArray =[1,2,3,4,5,6,7,8,9]
+const numberSplice = numberArray.splice(1,5) // 1~5번쨰만 추출
+console.log(numberSplice)

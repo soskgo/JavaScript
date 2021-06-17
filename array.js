@@ -60,5 +60,12 @@ console.log(resultEvery)
 const resultReduce = students.reduce((prev,curr)=>{ // prev = 이전 , curr = 현제 , reture 값이 있어야 prev에 들어간다.
     return prev + curr.score
 },0)
-
 console.log(resultReduce/students.length)
+
+// 10. 배열에서 50이상인 점수만 추출하여 정렬 문자열형태로 변환
+const arrayFind = students
+.map(student => student.score)
+.filter(score => score>=50)
+.sort((a,b)=>a-b)
+.join(',')
+console.log(arrayFind)

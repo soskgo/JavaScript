@@ -38,6 +38,13 @@ class Student {
 
 
 // 5. 학생에서 점수가 90인것만 추출
-const result = students.find((student)=>student.score===90)
-console.log(result)
+const resultFind = students.find((student)=>student.score===90)
+console.log(resultFind)
 
+// 6. true인것만 추출
+const resultFilter = students.filter((student)=>student.enrolled)
+console.log(resultFilter)
+
+// 7. map을 사용하여 점수 *2 변환
+const resultMap = students.map((student)=>student.score*2)
+console.log(resultMap)

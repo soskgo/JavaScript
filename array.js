@@ -7,3 +7,8 @@ console.log(fruitsResultString)
 const fruitsString = 'apple,banana,orange'
 const fruitsSplit = fruitsString.split(',') //split에 구분자를 넣어야한다.
 console.log(fruitsSplit)
+
+// 3. 배열의 순서를 거꾸로 변환
+const array = ['🍎', '🥝', '🍌',' 🍒']
+const reverseArray = array.reverse()
+console.log(reverseArray)

@@ -48,3 +48,17 @@ console.log(resultFilter)
 // 7. map을 사용하여 점수 *2 변환
 const resultMap = students.map((student)=>student.score*2)
 console.log(resultMap)
+
+// 8. 배열안에서 점수가 50점이하인 사람이 있는지 없는지 체크
+const resultSome = students.some((student)=>student.score<=50) // 있으면 true
+console.log(resultSome)
+
+const resultEvery = students.every((student)=>student.score<=50) // 있으면 false
+console.log(resultEvery)
+
+// 9. 배열안에서 점수의 평균
+const resultReduce = students.reduce((prev,curr)=>{ // prev = 이전 , curr = 현제 , reture 값이 있어야 prev에 들어간다.
+    return prev + curr.score
+},0)
+
+console.log(resultReduce/students.length)

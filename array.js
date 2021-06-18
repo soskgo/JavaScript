@@ -56,7 +56,7 @@ console.log(resultSome)
 const resultEvery = students.every((student)=>student.score<=50) // 있으면 false
 console.log(resultEvery)
 
-// 9. 배열안에서 점수의 평균
+// 9. 배열안의 점수의 평균구하기
 const resultReduce = students.reduce((prev,curr)=>{ // prev = 이전 , curr = 현제 , reture 값이 있어야 prev에 들어간다.
     return prev + curr.score
 },0)

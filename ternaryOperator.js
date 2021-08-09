@@ -12,6 +12,6 @@ function getResult(score) {
 }
 
 // Good Code
-function geResult(score) {
+function getResult(score) {
     return score > 5 ? 'good':'bad'
 }

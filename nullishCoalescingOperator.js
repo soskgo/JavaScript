@@ -19,7 +19,7 @@ printMessage(undefined) // Nothing to display
 printMessage(null) // Nothing to display
 
 
-function printMessage(text = 'Nothing to display') {
+function printMessage(text = 'Nothing to display') { // 디폴트 파라미터 설정
     console.log(text)
 }
 

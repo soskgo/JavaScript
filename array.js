@@ -69,3 +69,7 @@ const arrayFind = students
 .sort((a,b)=>a-b)
 .join(',')
 console.log(arrayFind)
+
+// 11. 배열에서 중복된 값제거
+const array = [1,2,3,4,5,1,2,3]
+console.log([...new Set(array)])

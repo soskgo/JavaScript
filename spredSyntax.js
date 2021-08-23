@@ -28,3 +28,18 @@ const newObject3 = Object.assign(item,detail) // assign() => 출처 객체로부
 
 // good code 2
 const newObject4 = {...item, ...detail, price:40} // item과 detail을 합치고 기존의 price값을 변경이 가능하다
+
+
+// Spread Syntax - array
+
+let count = [1,2,3]
+
+// count.push(4)
+count = [...count,4]
+
+// count.unshift(0)
+count = [0,...count]
+
+const count2 = [6,7,8]
+let combined = count.concat(count2) // concat() 메서드는 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환
+combined = [...count,...count2]
